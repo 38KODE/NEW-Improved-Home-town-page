@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Milnerton & Dunoon, Cape Town</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-overlay">
+            <h1>Discover Milnerton & Dunoon, Cape Town</h1>
+            <nav>
+                <ul>
+                    <li><a href="#milnerton">Milnerton</a></li>
+                    <li><a href="#dunoon">Dunoon</a></li>
+                    <li><a href="#facts">Facts & FAQs</a></li>
+                    <li><a href="#five-historical-facts">Five Historical Facts About Milnerton</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="milnerton" class="hometown-section">
+        <h2>Explore Milnerton</h2>
+        <p>Milnerton, a coastal suburb, is known for its beautiful beaches, picturesque lagoon, and stunning views of Table Mountain. The area's iconic Milnerton Lighthouse and the calm waters of the lagoon are perfect for scenic walks, water sports, and family outings.</p>
+        <button onclick="learnMore('Milnerton')">Learn More</button>
+    </section>
+
+    <section id="dunoon" class="hometown-section">
+        <h2>Discover Dunoon</h2>
+        <p>Dunoon is a lively township, known for its vibrant culture, close-knit community, and energetic street markets. The area is rapidly developing, blending modern infrastructure with traditional community living. Experience the warmth and energy of Dunoon's people as they work toward a brighter future.</p>
+        <button onclick="learnMore('Dunoon')">Learn More</button>
+    </section>
+
+    <section id="facts" class="facts-section">
+        <h2>Facts & FAQs</h2>
+        <div class="facts-container">
+            <div class="fact-item">
+                <h3>Did You Know?</h3>
+                <p>Milnerton Beach is one of the few places in Cape Town where you can see both Table Mountain and Robben Island in the same view.</p>
+            </div>
+            <div class="fact-item">
+                <h3>FAQ: How do people commute?</h3>
+                <p>Many locals rely on the MyCiti bus service and Golden Arrow for daily commutes. Both are affordable and provide extensive coverage across Cape Town.</p>
+            </div>
+            <div class="fact-item">
+                <h3>What landmarks are nearby?</h3>
+                <p>Milnerton Golf Club, the oldest golf course in Cape Town, is a favorite spot for both locals and visitors.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="five-historical-facts" class="facts-section">
+        <h2>Five Historical Facts About Milnerton</h2>
+        <ul>
+            <li><a href="https://www.stealthprop.co.za/area-profiles/milnerton" target="_blank">Establishment of Milnerton</a> - Milnerton was officially established in the late 19th century. It was initially developed as a suburb to accommodate the growing population of Cape Town.</li>
+            <li><a href="https://www.blaauwberg.net/history/milnerton_lighthouse.php" target="_blank">The Milnerton Lighthouse</a> - Built in 1936, the Milnerton Lighthouse serves as a navigational aid for ships entering Table Bay. It stands as an important historical landmark in the area.</li>
+            <li><a href="https://www.britannica.com/technology/railroad/Railroad-history" target="_blank">The Old Milnerton Station</a> - Once a crucial transport hub, the old Milnerton railway station played a significant role in connecting Milnerton to Cape Town, facilitating the movement of people and goods.</li>
+            <li><a href="https://www.woodbridgeisland.com/portfolios/about" target="_blank">Woodbridge Island</a> - Originally a military site with a history dating back to the 18th century, Woodbridge Island was repurposed for residential development in the 20th century. It now boasts a rich historical background.</li>            <li><a href="https://www.sportingpost.co.za/the-milnerton-racecourse-milnertonian-blogspot/" target="_blank">Development of the Milnerton Racecourse</a> - Established in the 1970s, the Milnerton Racecourse became a prominent venue for horse racing in the region. It reflects the area's evolving culture and economy.</li>
+        </ul>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <h2>Local Highlights</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="Images/milnerton-beach.jpeg" alt="Milnerton Beach">
+                <p>Milnerton Beach at sunset.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/dunoon-market.jpeg" alt="Dunoon Market">
+                <p>The bustling markets of Dunoon.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/school-children.jpeg" alt="Children walking to school">
+                <p>Children walking to school in Dunoon.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/gettyimages-mycity.jpeg" alt="Commuters">
+                <p>Commuters heading to work using MyCiti and Golden Arrow buses.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Get in Touch</h2>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>2024 Discover Milnerton & Dunoon.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
